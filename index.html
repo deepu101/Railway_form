@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Train Booking Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="booking-form">
+		<h2>Train Booking Form</h2>
+        <img src="https://cdn.zeebiz.com/sites/default/files/styles/zeebiz_850x478/public/2020/04/08/115970-ir.jpg?itok=g35Iiu5J" alt="Train Image">
+		<form>
+			<label for="from">From:</label>
+			<input type="text" id="from" name="from" placeholder="Enter departure city">
+
+			<label for="to">To:</label>
+			<input type="text" id="to" name="to" placeholder="Enter arrival city">
+
+			<label for="date">Departure Date:</label>
+			<input type="date" id="date" name="date">
+
+			<label for="class">Class:</label>
+			<select id="class" name="class">
+				<option value="economy">Economy</option>
+				<option value="business">Business</option>
+				<option value="first">First Class</option>
+			</select>
+
+			<button type="submit" class="button">Search Trains</button>
+		</form>
+
+
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
